@@ -7,4 +7,12 @@ end)
 -- (Optional) Configure lua language server for neovim
 require('lspconfig').lua_ls.setup(lsp.nvim_lua_ls())
 
+lsp.configure('rust_analyzer', {
+  settings = {
+    ['rust-analyzer'] = {
+      checkOnSave = { command = 'clippy' },
+    },
+  },
+})
+
 lsp.setup()
