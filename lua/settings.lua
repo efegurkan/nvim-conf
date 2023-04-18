@@ -24,6 +24,11 @@ vim.cmd [[
   colorscheme gruvbox
 ]]
 
+vim.cmd [[
+  set noswapfile
+  set nobackup
+]]
+
 
 vim.o.background = "dark"
 vim.o.tabstop = 2
