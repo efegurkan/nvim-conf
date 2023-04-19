@@ -17,6 +17,6 @@ vim.keymap.set("n", "<leader> ", ":nohlsearch<CR>")
 
 vim.keymap.set("n", "<leader>gu", ":UndotreeToggle<CR>")
 
-vim.keymap.set("n", "<leader>f", ":NvimTreeToggle<CR>")
-vim.keymap.set("n", "<leader>F", ":NvimTreeFindFile<CR>")
+vim.keymap.set("n", "<leader>f", ":NeoTreeShowToggle<CR>")
+vim.keymap.set("n", "<leader>F", ":NeoTreeReveal<CR>")
 

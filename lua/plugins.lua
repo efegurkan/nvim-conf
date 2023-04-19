@@ -90,9 +90,12 @@ return require('packer').startup(function(use)
   }
 
   use {
-    'nvim-tree/nvim-tree.lua',
+    "nvim-neo-tree/neo-tree.nvim",
+    branch = "v2.x",
     requires = {
-      'nvim-tree/nvim-web-devicons', -- optional
+      "nvim-lua/plenary.nvim",
+      "nvim-tree/nvim-web-devicons", -- not strictly required, but recommended
+      "MunifTanjim/nui.nvim",
     }
   }
 
