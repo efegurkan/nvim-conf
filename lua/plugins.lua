@@ -99,4 +99,7 @@ return require('packer').startup(function(use)
     }
   }
 
+  -- formatters etc
+  use "jose-elias-alvarez/null-ls.nvim"
+
 end)

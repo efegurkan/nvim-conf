@@ -19,4 +19,5 @@ vim.keymap.set("n", "<leader>gu", ":UndotreeToggle<CR>")
 
 vim.keymap.set("n", "<leader>f", ":NeoTreeShowToggle<CR>")
 vim.keymap.set("n", "<leader>F", ":NeoTreeReveal<CR>")
+vim.keymap.set("n", "<F5>", ":lua vim.lsp.buf.format()<CR>")
 
